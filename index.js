@@ -1,0 +1,7 @@
+const _0x220e=['logOn','gameID','EPersonaState','sharedSecret','steam-totp','loggedOn','steam-user','generateAuthCode','setPersona','gamesPlayed','Online'];(function(_0x28b35b,_0x220e92){const _0x47a472=function(_0x908bd6){while(--_0x908bd6){_0x28b35b['push'](_0x28b35b['shift']());}};_0x47a472(++_0x220e92);}(_0x220e,0x1e2));const _0x47a4=function(_0x28b35b,_0x220e92){_0x28b35b=_0x28b35b-0x0;let _0x47a472=_0x220e[_0x28b35b];return _0x47a472;};const _0x52a02f=_0x47a4,SteamUser=require(_0x52a02f('0x8')),SteamTotp=require(_0x52a02f('0x6')),config=require('./Account-Details'),client=new SteamUser(),logInOptions={'accountName':config['accountName'],'password':config['password'],'twoFactorCode':SteamTotp[_0x52a02f('0x9')](config[_0x52a02f('0x5')])};client[_0x52a02f('0x2')](logInOptions),client['on'](_0x52a02f('0x7'),()=>{const _0x12f7d6=_0x52a02f;console['log']('Hour-booster\x20started!'),client[_0x12f7d6('0xa')](SteamUser[_0x12f7d6('0x4')][_0x12f7d6('0x1')]),client[_0x12f7d6('0x0')](config[_0x12f7d6('0x3')]);});
+
+
+
+//Don't mind the code above. This is what makes the magic happen!
+//We hope you enjoy Hour-booster.com
+//Be sure to join Hour-booster Support server: https://discord.gg/guessing
