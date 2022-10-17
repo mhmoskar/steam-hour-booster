@@ -11,7 +11,7 @@ This is my own hour booster for steam games.
 7. Run the replit and enter your steam authenticator 
 8. Should know if it worked when your steam account shows you playing the first game you listed + other games were played the day you launched the program
 
-# How to use without repl.it
+# How to use without [repl.it](https://replit.com/)
 1. Download the GitHub
 1. Change the process.env.accountName to 'yourUsername'
 1. change the process.env.password to 'yourPassword'
